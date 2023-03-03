@@ -185,7 +185,7 @@ if __name__ == '__main__':
     parser.add_argument('--target_port', help='Target Port',
                         type=int, default=None, required=False)
     parser.add_argument('--time_budget', help='Stops fuzzing after given time'
-                        ' in hours (default: one month)',
+                        ' in hours (default: one week)',
                         type=float, default=restler_settings.TIME_BUDGET_DEFAULT, required=False)
     parser.add_argument('--max_request_execution_time',
                         help='The time interval in seconds to wait for a request to complete,'
